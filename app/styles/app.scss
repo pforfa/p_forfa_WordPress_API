@@ -1,0 +1,21 @@
+$space-large: 3rem;
+$title-color: #555;
+$post-title-color: #01060E;
+
+.page-title {
+  font-weight: bold;
+  color: $title-color;
+  margin-top: $space-large;
+  margin-bottom: $space-large;
+}
+
+.post-title {
+  font-weight: bold;
+  color: $post-title-color;
+  margin-top: $space-large;
+}
+
+//Left out, will be brought back once search feature works
+// input[type=search]{
+//   box-shadow: none;
+// }
