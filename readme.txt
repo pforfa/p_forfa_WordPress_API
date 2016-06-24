@@ -15,8 +15,19 @@ Given that node.js is installed on the user's machine, a simple terminal command
 port 3000. The application is also given the capability to be deployed on a live service such as Heroku. The app comes with preset settings which
 will automatically choose the default port on the host machine to which the app is deployed.
 
+
 Technologies Used:
 
 Front-End - React.js
 Back-End - Node.js
 CSS Library: Foundation
+
+
+How To Use:
+
+Simple press the Big Green Button on the screen and it will display the posts. Currently the app only supports post searching from a static URL.
+
+
+Future Updates:
+
+The app will support a search feature, where the use will be able to enter their WordPress URL and receive posts from their website.
