@@ -97,8 +97,8 @@ a{
   -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
   -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
-  padding-right: $space-article-pad;
-  padding-left: $space-article-pad;
+  padding-right: 60px;
+  padding-left: 60px;
   padding-bottom: $space-article-pad;
 }
 .post-box-shadow-none-post{
@@ -108,6 +108,10 @@ a{
   -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.35);
   border-radius: 10px;
   padding: $space-large;
+}
+.post-contents{
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 

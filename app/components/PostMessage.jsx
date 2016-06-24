@@ -17,17 +17,17 @@ var PostMessage = ({data}) => {
       <h2 className="ping-box-shadow text-center">Pinged this<a href='http://52.201.216.75'> WordPress Blog</a></h2>
       <div className="post-box-shadow">
         <h1 className="post-title"><div dangerouslySetInnerHTML={ {__html: data[0].title.rendered} }></div> </h1>
-        <div dangerouslySetInnerHTML={ {__html: data[0].content.rendered} }></div>
+        <div className="post-contents" dangerouslySetInnerHTML={ {__html: data[0].content.rendered} }></div>
       </div>
 
       <div className="post-box-shadow">
         <h1 className="post-title"><div dangerouslySetInnerHTML={ {__html: data[1].title.rendered} }></div></h1>
-        <div dangerouslySetInnerHTML={ {__html: data[1].content.rendered} }></div>
+        <div className="post-contents" dangerouslySetInnerHTML={ {__html: data[1].content.rendered} }></div>
       </div>
 
       <div className="post-box-shadow">
         <h1 className="post-title"><div dangerouslySetInnerHTML={ {__html: data[2].title.rendered} }></div></h1>
-        <div dangerouslySetInnerHTML={ {__html: data[2].content.rendered} }></div>
+        <div className="post-contents" dangerouslySetInnerHTML={ {__html: data[2].content.rendered} }></div>
       </div>
 
     </div>
