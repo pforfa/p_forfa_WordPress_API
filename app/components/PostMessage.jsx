@@ -13,12 +13,20 @@ var PostMessage = ({data}) => {
   //tags into the div, and append the text inside the actual HTML paragraph tags.
   return (
     <div className="text-center">
-      <h1 className="post-title"> <div dangerouslySetInnerHTML={ {__html: data[0].title.rendered} }/> </h1>
-      <div dangerouslySetInnerHTML={ {__html: data[0].content.rendered} }/>
-      <h1 className="post-title"><div dangerouslySetInnerHTML={ {__html: data[1].title.rendered} }/></h1>
-      <div dangerouslySetInnerHTML={ {__html: data[1].content.rendered} }/>
-        <h1 className="post-title"><div dangerouslySetInnerHTML={ {__html: data[2].title.rendered} }/></h1>
-        <div dangerouslySetInnerHTML={ {__html: data[2].content.rendered} }/>
+      <div className="post-box-shadow">
+        <h1 className="post-title"><div dangerouslySetInnerHTML={ {__html: data[0].title.rendered} }></div> </h1>
+        <div dangerouslySetInnerHTML={ {__html: data[0].content.rendered} }></div>
+      </div>
+
+      <div className="post-box-shadow">
+        <h1 className="post-title"><div dangerouslySetInnerHTML={ {__html: data[1].title.rendered} }></div></h1>
+        <div dangerouslySetInnerHTML={ {__html: data[1].content.rendered} }></div>
+      </div>
+
+      <div className="post-box-shadow">
+        <h1 className="post-title"><div dangerouslySetInnerHTML={ {__html: data[2].title.rendered} }></div></h1>
+        <div dangerouslySetInnerHTML={ {__html: data[2].content.rendered} }></div>
+      </div>
     </div>
   );
 }

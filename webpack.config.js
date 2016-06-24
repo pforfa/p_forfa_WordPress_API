@@ -29,7 +29,6 @@ module.exports = {
       PostMessage: 'app/components/PostMessage.jsx',
       About: 'app/components/About.jsx',
       Search: 'app/components/Search.jsx',
-      ErrorModal: 'app/components/ErrorModal.jsx',
       applicationStyles: 'app/styles/app.scss',
       Wordpress: 'app/api/wordpress.js'
     },

@@ -1,18 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
 $space-large: 3rem;
-$title-color: #555;
+$space-med: 2rem;
+$space-small: 1rem;
+$title-color: #01060E;
 $post-title-color: #01060E;
+.button{
+  background-color: green;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
 
 .page-title {
+  text-shadow: 2px 2px 4px #000000;
   font-weight: bold;
-  color: $title-color;
+  font-size: $space-large;
+  color: white;
   margin-top: $space-large;
   margin-bottom: $space-large;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .8px;
 }
 
 .post-title {
   font-weight: bold;
   color: $post-title-color;
   margin-top: $space-large;
+  margin-bottom: $space-large;
+  padding-top: $space-med;
+  font-family: 'Open Sans', serif;
+}
+
+body{
+  font-family: 'Open Sans', serif;
+  background: url("https://photos-3.dropbox.com/t/2/AAD4GjA1LX5v_J0FG1rFzNSG-NS9FOZ_pgARLB9pWJULGQ/12/325484521/jpeg/32x32/1/_/1/2/wordpress_bg.jpg/EJKY5cICGOAFIAcoBw/aO_iwkfJfdhliS2jsXFDYowlk9JPcUaG7_cGapQnUCI?size_mode=5");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1{
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+.post-box-shadow{
+  // box-shadow: 10px 10px 10px 10px #888888;
+  // border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  padding-right: $space-large;
+  padding-left: $space-large;
+  padding-bottom: $space-large;
 }
 
 //Left out, will be brought back once search feature works

@@ -35,7 +35,7 @@ var Post = React.createClass({
 
     function renderMessage () {
       if(isLoading) {
-        return <h3 className="text-center"> Fetching Posts...</h3>;
+        return <h4 className="text-center"> Fetching Posts...</h4>;
       }else if (data) {
         console.log("Inside renderMessage function - Post.jsx. About to call PostMessage");
         return <PostMessage data={data}/>;
@@ -44,7 +44,7 @@ var Post = React.createClass({
 
     return (
       <div>
-        <h1 className="text-center page-title">Get Posts</h1>
+        <h1 className="text-center page-title">WORDPRESS POSTS</h1>
         <PostForm onSearch={this.handleSearch}/>
         {renderMessage()}
       </div>
