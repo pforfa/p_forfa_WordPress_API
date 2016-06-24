@@ -11,7 +11,7 @@ var Post = React.createClass({
     }
   },
   handleSearch: function () {
-    console.log("Inside handleSearch function in Post.jsx ");
+    //console.log("Inside handleSearch function in Post.jsx ");
     var that = this;
 
     this.setState({
@@ -19,7 +19,7 @@ var Post = React.createClass({
     });
 
     Wordpress.getPosts().then(function (data) {
-      console.log("Calling WordPress.js' getPosts from inside Post.jsx using handleSearch function");
+      //console.log("Calling WordPress.js' getPosts from inside Post.jsx using handleSearch function");
       that.setState({
         data: data,
         isLoading: false
@@ -35,9 +35,9 @@ var Post = React.createClass({
 
     function renderMessage () {
       if(isLoading) {
-        return <h4 className="text-center"> Fetching Posts...</h4>;
+        return <h4 className="text-center fetch-style"> Fetching Posts...</h4>;
       }else if (data) {
-        console.log("Inside renderMessage function - Post.jsx. About to call PostMessage");
+        //console.log("Inside renderMessage function - Post.jsx. About to call PostMessage");
         return <PostMessage data={data}/>;
       }
     }

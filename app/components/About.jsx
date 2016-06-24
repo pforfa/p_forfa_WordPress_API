@@ -9,9 +9,8 @@ var About = (props) => {
         <p>
           This is an application that pulls posts from a WordPress website and displays them all for viewing.
         </p>
-        <p>The page will soon receive a style overhaul.</p>
         <p>
-          The Following are components are needed on the WordPress website being pinged.
+          The Following components are needed on the WordPress website being pinged.
         </p>
         <ul>
           <li> WordPress REST API V2</li>
