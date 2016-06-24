@@ -12,7 +12,7 @@ $post-title-color: #01060E;
   -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
   -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
-  letter-spacing: 1px;
+  letter-spacing: .8px;
 }
 
 .page-title {
@@ -22,7 +22,7 @@ $post-title-color: #01060E;
   color: white;
   margin-top: $space-large;
   margin-bottom: $space-large;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald:700', sans-serif;
   letter-spacing: .8px;
 }
 
@@ -43,25 +43,33 @@ body{
   background-attachment: fixed;
 }
 
-h1{
-
-}
-
 ul {
   list-style-type: none;
 }
 
+a{
+  text-decoration: none;
+  color: blue;
+}
+
 .post-box-shadow{
-  // box-shadow: 10px 10px 10px 10px #888888;
-  // border-radius: 10px;
-  background-color: white;
+  background-color:rgba(255, 255, 255, 0.90);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  padding-right: $space-large;
+  padding-left: $space-large;
+  padding-bottom: $space-large;
+}
+
+.post-box-shadow-none-post{
+  background-color:rgba(255, 255, 255, 0.80);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
   -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.35);
   border-radius: 10px;
-  padding-right: $space-large;
-  padding-left: $space-large;
-  padding-bottom: $space-large;
+  padding: $space-large;
 }
 
 //Left out, will be brought back once search feature works

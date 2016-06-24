@@ -13,7 +13,7 @@ var PostForm = React.createClass({
     return (
       <div>
         <form onSubmit={this.onFormSubmit}>
-          <button className="button large">Get Wordpress Posts</button>
+          <button className="button large">GET WORDPRESS POSTS</button>
         </form>
       </div>
     );
