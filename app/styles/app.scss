@@ -6,6 +6,24 @@ $space-med: 2rem;
 $space-small: 1rem;
 $title-color: #01060E;
 $post-title-color: #01060E;
+
+.top-bar {
+    background: #B1BEE3;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.65);
+}
+.top-bar-left .menu{
+  background: #B1BEE3 !important;
+}
+.top-bar-section ul li.active > a {
+    background: blue !important;
+}
+
 .button{
   background-color: green;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
@@ -71,6 +89,8 @@ a{
   border-radius: 10px;
   padding: $space-large;
 }
+
+
 
 //Left out, will be brought back once search feature works
 // input[type=search]{
